@@ -1,0 +1,57 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+    color: white;
+    background-color: #000;
+}
+
+h5{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.calque-position-z{
+    z-index: 999;
+}
+
+/*Code pour le css du parallax début*/
+.parallax-container {
+    background: #000;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)),url(../image/Bureau_vue_du_dessus.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .parallax-content {
+      padding: 275px 0 100px 0;
+    }
+    /*Code pour le css du parallax fin*/
+
+.timeline-principal{
+    border-right: 3px solid #000;
+    padding: 50px 10px 50px 0px;
+}
+
+.timeline-secondaire-gauche{
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    padding-bottom: 20px;
+}
+
+.timeline-secondaire-droite{
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    padding-bottom: 20px;
+}
+
+.gradient-black{
+    background: linear-gradient(white,grey,black);
+}
+
+.ul-competence{
+    list-style-type: none;
+}
